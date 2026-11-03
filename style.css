@@ -1,0 +1,116 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+
+header {
+    background-color: #ec7ce7;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+
+nav {
+    background-color: #aa1785;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+
+h2 {
+    color: #aa1748;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.tarjeta {
+    background-color: #e5f1fc;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 180px;
+}
+
+.tarjeta h3 {
+    color: #3d1256;
+}
+
+
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+a {
+    color: #9507a8;
+}
+
+
+footer {
+    background-color: #3d1256;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    section {
+        width: 95%;
+        padding: 18px;
+    }
+}
